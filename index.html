@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!-- Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<h1>Visualize Data with a Chloropleth Map</h1>
+			<h3>freeCodeCamp Data Visualization Project</h3>
+		</header>
+		<section id="graph">
+			<h2 id="title">United States Educational Attainment</h2>
+			<h5 id="description">
+				Percentage of adults age 25 and older with a bachelor's degree or higher
+				(2010-2014)
+			</h5>
+			<svg width="980" height="640"></svg>
+			<p id="source">
+				Source:
+				<a
+					href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx"
+					>USDA Economic Research Service</a
+				>
+			</p>
+		</section>
+		<footer>
+			<p>2019 Ryan Crummy</p>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="https://d3js.org/topojson.v2.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	</body>
+</html>
